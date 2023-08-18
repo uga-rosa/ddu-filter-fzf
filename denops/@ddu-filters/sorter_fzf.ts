@@ -11,7 +11,7 @@ function getScore(item: DduItem) {
   return 0;
 }
 
-type Params = Record<never, never>;
+type Params = Record<PropertyKey, never>;
 
 export class Filter extends BaseFilter<Params> {
   filter(args: {
